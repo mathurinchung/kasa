@@ -3,10 +3,6 @@
   text-align: center;
 }
 
-#NotFound, a {
-  color: #ff6060;
-}
-
 #NotFound .errorCode {
   font-weight: 700;
   font-size: 288px;

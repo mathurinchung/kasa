@@ -1,6 +1,5 @@
 import data from '../__mocks__/accommodations.json';
-import Banner from '../components/Banner';
-import Card from '../components/Card';
+import { Banner, Card } from '../components';
 import '../css/Home.css'
 
 function Home() {

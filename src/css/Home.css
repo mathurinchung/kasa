@@ -9,6 +9,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#Home .layer p {
   color: #fff;
 }
 

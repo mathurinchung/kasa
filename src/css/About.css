@@ -3,3 +3,29 @@
   background: url("../assets/images/background_about.jpg") center no-repeat;
   mix-blend-mode: darken;
 }
+
+#About .Collapse {
+  padding: 0 108px;
+}
+
+#About .Collapse:last-child {
+  margin-bottom: 201px;
+}
+
+#About .Collapse .title {
+  padding: 6.5px 18px;
+}
+
+#About .Collapse .title h2 {
+  font-size: 24px;
+}
+
+#About .Collapse .content {
+  padding: 27px 27px 19px 18px;
+}
+
+#About .Collapse .content p {
+  width: 978px;
+  font-size: 24px;
+  font-weight: 400;
+}
