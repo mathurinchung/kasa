@@ -1,0 +1,24 @@
+#Home .banner {
+  margin-top: 63px;
+  font-size: 48px;
+  background: url("../assets/images/background_home.jpg") center no-repeat;
+  mix-blend-mode: darken;
+}
+
+#Home .layer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#Home .accommodations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 60px;
+  row-gap: 50px;
+  margin: 43px 0 159px;
+  border-radius: 25px;
+  padding: 56px 50px;
+  background-color: #f6f6f6;
+}

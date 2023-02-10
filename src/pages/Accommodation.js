@@ -1,4 +1,5 @@
 function Accommodation() {
+
   return (
     <div id="Accommodation"></div>
   );

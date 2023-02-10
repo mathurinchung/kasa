@@ -1,0 +1,5 @@
+#About .banner {
+  margin-top: 44px;
+  background: url("../assets/images/background_about.jpg") center no-repeat;
+  mix-blend-mode: darken;
+}
