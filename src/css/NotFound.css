@@ -1,0 +1,29 @@
+#NotFound {
+  padding-top: 169px;
+  text-align: center;
+}
+
+#NotFound, a {
+  color: #ff6060;
+}
+
+#NotFound .errorCode {
+  font-weight: 700;
+  font-size: 288px;
+  line-height: 142.6%;
+}
+
+#NotFound .errorMsg {
+  padding-top: 66px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 142.6%;
+}
+
+#NotFound a {
+  display: inline-block;
+  padding: 182px 0 159px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+}
