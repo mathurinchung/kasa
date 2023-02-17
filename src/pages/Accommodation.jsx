@@ -12,9 +12,7 @@ function Accommodation() {
 
   return (
     <div id="Accommodation">
-      <Slideshow>
-        { <img src={ accommodation.pictures[0] } alt="" /> }
-      </Slideshow>
+      <Slideshow pictures={ accommodation.pictures } />
 
       <div className="information">
         <h2 className="title">{ accommodation.title }</h2>

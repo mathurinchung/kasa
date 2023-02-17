@@ -20,3 +20,23 @@
   font-weight: 500;
   font-size: 18px;
 }
+
+@media screen and (max-width: 376px) {
+  #NotFound {
+    padding-top: 195px;
+  }
+
+  #NotFound .errorCode {
+    font-size: 96px;
+  }
+
+  #NotFound .errorMsg {
+    padding-top: 11px;
+    font-size: 18px;
+  }
+
+  #NotFound a {
+    padding: 133px 0 235px;
+    font-size: 14px;
+  }
+}

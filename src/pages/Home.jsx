@@ -6,7 +6,7 @@ function Home() {
   return (
     <div id="Home">
       <Banner>
-        <p>Chez vous partout et ailleurs</p>
+        <p>Chez vous, partout et ailleurs</p>
       </Banner>
       <div className="accommodations">
         { data.map(({ id, cover, title }) => <Card key={ id } id={ id } cover={ cover } title={ title } />) }

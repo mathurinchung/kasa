@@ -21,3 +21,9 @@ body {
 img {
   object-fit: cover;
 }
+
+@media screen and (max-width: 376px) {
+  #Header, #Main {
+    margin: 0 20px;
+  }
+}

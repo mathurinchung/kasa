@@ -23,3 +23,33 @@
 #Header .isActive {
   text-decoration: underline;
 }
+
+.icon-logo.red {
+  width: 210.32px;
+  height: 68px;
+  mask-size: 210.32px;
+  -webkit-mask-size: 210.32px;
+  background-color: #ff6060;
+}
+
+@media screen and (max-width: 376px) {
+  #Header {
+    padding-top: 20px;
+  }
+
+  #Header li {
+    padding-left: 10px;
+  }
+
+  #Header .navlink {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .icon-logo.red {
+    width: 145px;
+    height: 47px;
+    mask-size: 145px;
+    -webkit-mask-size: 145px;
+  }
+}

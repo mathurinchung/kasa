@@ -39,3 +39,39 @@
   font-size: 24px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 376px) {
+  #About .banner {
+    margin-top: 17px;
+    background-size: cover;
+  }
+
+  #About .Collapse {
+    margin-top: 19px;
+    padding: 0;
+  }
+
+  #About .Collapse .title {
+    padding: 5.5px 11.51px;
+  }
+
+  #About .Collapse .title h2 {
+    font-size: 13px;
+  }
+
+  #About .icon-arrow-collapse {
+    width: 15.2px;
+    height: 8.98px;
+    mask-size: 15.2px;
+    -webkit-mask-size: 15.2px;
+  }
+
+  #About .Collapse .content {
+    padding: 27.31px 6.91px 52.28px 11.51px;
+  }
+
+  #About .Collapse .content p {
+    width: 316.58px;
+    font-size: 12px;
+  }
+}

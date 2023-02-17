@@ -19,3 +19,21 @@
   font-size: 24px;
   color: #fff;
 }
+
+.icon-logo.white {
+  width: 122px;
+  height: 39.44px;
+  mask-size: 122px;
+  -webkit-mask-size: 122px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 376px) {
+  #Footer .icon-logo {
+    margin-top: 62px;
+  }
+
+  #Footer p {
+    font-size: 12px;
+  }
+}
