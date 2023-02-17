@@ -1,6 +1,6 @@
 #Home .banner {
-  margin-top: 63px;
-  font-size: 48px;
+  margin-top: 4.38vw;
+  font-size: 3.33vw;
   background: url("../assets/images/background_home.jpg") center no-repeat;
   background-size: 100% auto;
   mix-blend-mode: darken;
@@ -19,11 +19,11 @@
 #Home .accommodations {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 60px;
-  row-gap: 50px;
-  margin: 43px 0 159px;
+  column-gap: 4.17vw;
+  row-gap: 3.47vw;
+  margin: 2.99vw 0 11.04vw;
   border-radius: 25px;
-  padding: 56px 50px;
+  padding: 3.89vw 3.47vw;
   background-color: #f6f6f6;
 }
 

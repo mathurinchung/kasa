@@ -24,9 +24,8 @@
 
 .Collapse .content {
   position: relative;
-  top: -10px;
+  top: -.69vw;
   background-color: #f7f7f7;
-  /* transition: .5s; */
 }
 
 

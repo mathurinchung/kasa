@@ -23,9 +23,9 @@
 .Slideshow .slide .numberText {
   position: absolute;
   bottom: 0;
-  margin-bottom: 24.92px;
+  margin-bottom: 1.73vw;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.25vw;
 }
 
 .Slideshow .arrow {
@@ -35,19 +35,19 @@
 }
 
 .Slideshow .arrow i {
-  width: 46.66px;
-  height: 79.2px;
-  mask-size: 46.66px;
-  -webkit-mask-size: 46.66px;
+  width: 3.24vw;
+  height: 5.5vw;
+  mask-size: 3.24vw;
+  -webkit-mask-size: 3.24vw;
   background-color: #fff;
 }
 
 .Slideshow .previous {
-  margin-left: 23.36px;
+  margin-left: 1.62vw;
 }
 
 .Slideshow .next {
-  margin-right: 23.36px;
+  margin-right: 1.62vw;
 }
 
 @media screen and (max-width: 376px) {

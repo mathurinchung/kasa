@@ -1,8 +1,8 @@
 .Card {
   position: relative;
   border-radius: 10px; 
-  width: 340px;
-  height: 340px;
+  width: 23.61vw;
+  height: 23.61vw;
   background-color: #ff6060;
 }
 
@@ -35,11 +35,11 @@
 }
 
 .Card p {
-  margin: 20px;
-  height: 52px;
+  margin: 1.39vw;
+  height: 3.61vw;
   width: 100%;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.25vw;
 }
 
 @media screen and (max-width: 376px) {

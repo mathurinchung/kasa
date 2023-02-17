@@ -1,24 +1,24 @@
 #NotFound {
-  padding-top: 169px;
+  padding-top: 11.74vw;
   text-align: center;
 }
 
 #NotFound .errorCode {
   font-weight: 700;
-  font-size: 288px;
+  font-size: 20vw;
 }
 
 #NotFound .errorMsg {
-  padding-top: 66px;
+  padding-top: 4.58vw;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 2.5vw;
 }
 
 #NotFound a {
   display: inline-block;
-  padding: 182px 0 159px;
+  padding: 12.64vw 0 11.04vw;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.25vw;
 }
 
 @media screen and (max-width: 376px) {

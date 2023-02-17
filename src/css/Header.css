@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 2.78vw;
 }
 
 #Header ul {
@@ -11,12 +11,12 @@
 }
 
 #Header li {
-  padding-left: 57px;
+  padding-left: 3.96vw;
 }
 
 #Header .navlink {
   color: #ff6060;
-  font-size: 24px;
+  font-size: 1.67vw;
   text-decoration: none;
 }
 
@@ -25,10 +25,10 @@
 }
 
 .icon-logo.red {
-  width: 210.32px;
-  height: 68px;
-  mask-size: 210.32px;
-  -webkit-mask-size: 210.32px;
+  width: 14.61vw;
+  height: 4.72vw;
+  mask-size: 14.61vw;
+  -webkit-mask-size: 14.61vw;
   background-color: #ff6060;
 }
 
