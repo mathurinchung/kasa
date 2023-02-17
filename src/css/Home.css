@@ -2,6 +2,7 @@
   margin-top: 63px;
   font-size: 48px;
   background: url("../assets/images/background_home.jpg") center no-repeat;
+  background-size: 100% auto;
   mix-blend-mode: darken;
 }
 

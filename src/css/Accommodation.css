@@ -1,0 +1,129 @@
+#Accommodation {
+  display: grid;
+  grid-template-columns: repeat(2, 582px);
+  grid-template-rows: repeat(3, auto);
+  column-gap: 76px;
+}
+
+#Accommodation .Slideshow {
+  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+  margin-top: 20px;
+  height: 415px;
+}
+
+#Accommodation .Slideshow img {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+#Accommodation .information {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-row: 2 / 3;
+  grid-column: 1 / 3;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%
+}
+
+#Accommodation .information .title {
+  grid-column: 1 / 2;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+#Accommodation .information .location {
+  grid-column: 1 / 2;
+  font-size: 18px;
+}
+
+#Accommodation .information .tags {
+  display: flex;
+  align-items: center;
+  grid-column: 1 / 2;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#Accommodation .information .tag {
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 3px 30px;
+  background-color: #ff6060;
+  color: #fff;
+}
+
+#Accommodation .information .host {
+  display: flex;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#Accommodation .information .hostname {
+  margin-right: 10px;
+  /* width: 100px; */
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+}
+
+#Accommodation .information .host .profile {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  background-color: #c4c4c4;
+}
+
+#Accommodation .information .host .profile img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+#Accommodation .information .rating {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  margin-top: 20px;
+}
+
+#Accommodation .information .rating i {
+  margin-left: 10px;
+}
+
+#Accommodation .Collapse {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-row: 3 / 4;
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+
+#Accommodation .Collapse .title {
+  border-radius: 10px;
+  padding: 13px 20px
+}
+
+#Accommodation .Collapse .title h2 {
+  font-size: 18px;
+}
+
+#Accommodation .icon-arrow-collapse {
+  width: 26.4px;
+  height: 15.56px;
+  mask-size: 26.4px;
+  -webkit-mask-size: 26.4px;
+}
+
+#Accommodation .Collapse .content {
+  border-radius: 10px;
+  padding: 40px 12px 27px 20px;
+}
+
+#Accommodation .Collapse .content ul {
+  font-size: 18px;
+  list-style: none;
+}

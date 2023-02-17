@@ -1,6 +1,7 @@
-import Router from './Router';
-import { Header, Footer } from './Layouts';
+import { Router } from './components/Router';
+import { Header, Footer } from './components/Layouts';
 import './css/App.css';
+import './css/Icons.css';
 
 function App() {
   return (

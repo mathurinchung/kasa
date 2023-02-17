@@ -10,8 +10,8 @@
   text-align: center;
 }
 
-#Footer img {
-  padding-top: 66px;
+#Footer .icon-logo {
+  margin-top: 66px;
 }
 
 #Footer p {

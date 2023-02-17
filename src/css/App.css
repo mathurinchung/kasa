@@ -17,3 +17,7 @@ body {
 #Header, #Main {
   margin: 0 100px;
 }
+
+img {
+  object-fit: cover;
+}

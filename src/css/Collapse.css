@@ -1,12 +1,13 @@
 .Collapse {
   position: relative;
-  margin-top: 31px;
 }
 
 .Collapse .title {
   position: relative;
   z-index: 100;
-  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #ff6060;
 }
 
@@ -15,9 +16,24 @@
   font-weight: 500;
 }
 
+.Collapse .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .Collapse .content {
   position: relative;
   top: -10px;
-  border-radius: 5px;
   background-color: #f7f7f7;
+  /* transition: .5s; */
+}
+
+
+.Collapse .content.collapse {
+  display: none;
+}
+
+.Collapse .content.expand {
+  display: block;
 }

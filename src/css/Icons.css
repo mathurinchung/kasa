@@ -1,0 +1,56 @@
+i {
+  display: inline-block;
+}
+
+.icon-logo {
+  mask:url("../assets/svg/logo.svg");
+  -webkit-mask:url("../assets/svg/logo.svg");
+}
+
+.icon-logo.red {
+  width: 210.32px;
+  height: 68px;
+  mask-size: 210.32px;
+  -webkit-mask-size: 210.32px;
+  background-color: #ff6060;
+}
+
+.icon-logo.white {
+  width: 122px;
+  height: 39.44px;
+  mask-size: 122px;
+  -webkit-mask-size: 122px;
+  background-color: #fff;
+}
+
+.icon-arrow-collapse {
+  mask:url("../assets/svg/arrow_collapse.svg");
+  -webkit-mask:url("../assets/svg/arrow_collapse.svg");
+  background-color: #fff;
+  transition: .5s;
+}
+
+.icon-arrow-collapse.collapse {
+  transform: rotate(-180deg);
+}
+
+.icon-arrow-collapse.expand {
+  transform: rotate(0deg);
+}
+
+.icon-star {
+  width: 30px;
+  height: 30px;
+  mask:url("../assets/svg/star.svg");
+  -webkit-mask:url("../assets/svg/star.svg");
+  mask-size: 30px;
+  -webkit-mask-size: 30px;
+}
+
+.icon-star.grey {
+  background-color: #e3e3e3;
+}
+
+.icon-star.red {
+  background-color: #ff6060;
+}

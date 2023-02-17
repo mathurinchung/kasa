@@ -5,6 +5,7 @@
 }
 
 #About .Collapse {
+  margin-top: 31px;
   padding: 0 108px;
 }
 
@@ -13,6 +14,7 @@
 }
 
 #About .Collapse .title {
+  border-radius: 5px;
   padding: 6.5px 18px;
 }
 
@@ -20,7 +22,15 @@
   font-size: 24px;
 }
 
+#About .icon-arrow-collapse {
+  width: 23.86px;
+  height: 14.06px;
+  mask-size: 23.86px;
+  -webkit-mask-size: 23.86px;
+}
+
 #About .Collapse .content {
+  border-radius: 5px;
   padding: 27px 27px 19px 18px;
 }
 
