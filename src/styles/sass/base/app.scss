@@ -4,26 +4,20 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #ff6060;
+  color: $base-color;
   line-height: 142.6%;
 }
 
 body {
   overflow: overlay;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
-#Header, #Main {
-  margin: 0 6.94vw;
+ul {
+  list-style: none;
 }
 
 img {
   object-fit: cover;
-}
-
-@media screen and (max-width: 376px) {
-  #Header, #Main {
-    margin: 0 20px;
-  }
 }

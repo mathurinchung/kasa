@@ -1,0 +1,39 @@
+.Home .banner {
+  margin-top: get-vw($desktop-context, 63px);
+  background: url("../../assets/images/background_home.jpg") no-repeat center / 100% auto;
+}
+
+.Home .accommodations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: get-vw($desktop-context, 60px);
+  row-gap: get-vw($desktop-context, 50px);
+  margin: get-vw($desktop-context, 43px) 0 get-vw($desktop-context, 159px);
+  border-radius: 25px;
+  padding: get-vw($desktop-context, 56px) get-vw($desktop-context, 50px);
+  background-color: #f6f6f6;
+}
+
+@media screen and (max-width: 768px) {
+  .Home .banner {
+    margin-top: get-vw($mobile-context, 16px);
+    height: get-vw($mobile-context, 111px);
+    background-size: cover;
+    font-size: get-vw($mobile-context, 24px);
+    line-height: 100%;
+  }
+
+  .Home .banner .overlay {
+    justify-content: flex-start;
+    padding-left: get-vw($mobile-context, 16px);
+  }
+
+  .Home .accommodations {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: get-vw($mobile-context, 20px);
+    margin: get-vw($mobile-context, 22px) 0 get-vw($mobile-context, 168px);
+    padding: 0;
+    background-color: #fff;
+  }
+}

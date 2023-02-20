@@ -1,0 +1,42 @@
+.NotFound {
+  padding-top: get-vw($desktop-context, 169px);
+  text-align: center;
+}
+
+.NotFound .errorCode {
+  font-weight: 700;
+  font-size: get-vw($desktop-context, 288px);
+}
+
+.NotFound .errorMsg {
+  padding-top: get-vw($desktop-context, 66px);
+  font-weight: 500;
+  font-size: get-vw($desktop-context, 36px);
+}
+
+.NotFound a {
+  display: inline-block;
+  padding: get-vw($desktop-context, 182px) 0 get-vw($desktop-context, 159px);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .NotFound {
+    padding-top: get-vw($mobile-context, 195px);
+  }
+
+  .NotFound .errorCode {
+    font-size: get-vw($mobile-context, 96px);
+  }
+
+  .NotFound .errorMsg {
+    padding-top: get-vw($mobile-context, 11px);
+    font-size: get-vw($mobile-context, 18px);
+  }
+
+  .NotFound a {
+    padding: get-vw($mobile-context, 133px) 0 get-vw($mobile-context, 235px);
+    font-size: get-vw($mobile-context, 14px);
+  }
+}

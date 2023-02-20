@@ -1,0 +1,9 @@
+#Header, #Main {
+  margin: 0 get-vw($desktop-context, 100px);
+}
+
+@media screen and (max-width: 768px) {
+  #Header, #Main {
+    margin: 0 get-vw($mobile-context, 20px);
+  }
+}

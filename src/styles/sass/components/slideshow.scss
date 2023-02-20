@@ -23,9 +23,9 @@
 .Slideshow .slide .numberText {
   position: absolute;
   bottom: 0;
-  margin-bottom: 1.73vw;
+  margin-bottom: get-vw($desktop-context, 24.92px);
   color: #fff;
-  font-size: 1.25vw;
+  font-size: get-vw($desktop-context, 18px);
 }
 
 .Slideshow .arrow {
@@ -35,22 +35,22 @@
 }
 
 .Slideshow .arrow i {
-  width: 3.24vw;
-  height: 5.5vw;
-  mask-size: 3.24vw;
-  -webkit-mask-size: 3.24vw;
+  width: get-vw($desktop-context, 46.68px);
+  height: get-vw($desktop-context, 79.2px);
+  mask-size: get-vw($desktop-context, 46.68px);
+  -webkit-mask-size: get-vw($desktop-context, 46.68px);
   background-color: #fff;
 }
 
 .Slideshow .previous {
-  margin-left: 1.62vw;
+  margin-left: get-vw($desktop-context, 23.36px);
 }
 
 .Slideshow .next {
-  margin-right: 1.62vw;
+  margin-right: get-vw($desktop-context, 23.36px);
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 768px) {
   .Slideshow {
     border-radius: 10px;
   }
@@ -60,17 +60,17 @@
   }
 
   .Slideshow .arrow i {
-    width: 11.67px;
-    height: 19.8px;
-    mask-size: 11.67px;
-    -webkit-mask-size: 11.67px;
+    width: get-vw($mobile-context, 11.67px);
+    height: get-vw($mobile-context, 19.8px);
+    mask-size: get-vw($mobile-context, 11.67px);
+    -webkit-mask-size: get-vw($mobile-context, 11.67px);
   }
 
   .Slideshow .previous {
-    margin-left: 5.84px;
+    margin-left: get-vw($mobile-context, 5.84px);
   }
   
   .Slideshow .next {
-    margin-right: 5.84px;
+    margin-right: get-vw($mobile-context, 5.84px);
   }
 }

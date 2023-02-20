@@ -1,16 +1,15 @@
 import { Link } from 'react-router-dom';
-import '../css/Card.css'
 
-function Card({ id, cover, title }) {
+function Card({ data }) {
   return (
-    <div className="Card">
-      <Link to={ `accommodation/${id}` }>
-        <img src={ cover } alt={ title } />
-        <div className="overlay">
-          <p>{ title }</p>
-        </div>
+    <li className="Card">
+      <Link to={ `accommodation/${ data.id }` }>
+        <figure>
+          <img src={ data.cover } alt={ data.title } />
+          <figcaption className="overlay">{ data.title }</figcaption>
+        </figure>
       </Link>
-    </div>
+    </li>
   );
 }
 

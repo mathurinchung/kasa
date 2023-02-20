@@ -1,0 +1,82 @@
+.About .banner {
+  margin-top: get-vw($desktop-context, 44px);
+  background: url("../../assets/images/background_about.jpg") no-repeat center / 100% auto;
+  background-size: 100% auto;
+}
+
+.About .Dropdown {
+  margin-top: get-vw($desktop-context, 31px);
+  padding: 0 get-vw($desktop-context, 109px);
+}
+
+.About .Dropdown:last-child {
+  margin-bottom: get-vw($desktop-context, 201px);
+}
+
+.About .Dropdown .title {
+  border-radius: 5px;
+  padding: get-vw($desktop-context, 6px) get-vw($desktop-context, 16.06px) get-vw($desktop-context, 6px) get-vw($desktop-context, 18.08px);
+}
+
+.About .Dropdown .title h3 {
+  font-size: get-vw($desktop-context, 24px);
+}
+
+.About .icon-arrow-dropdown {
+  width: get-vw($desktop-context, 23.86px);
+  height: get-vw($desktop-context, 14.06px);
+  mask-size: get-vw($desktop-context, 23.86px);
+  -webkit-mask-size: get-vw($desktop-context, 23.86px);
+}
+
+.About .Dropdown .content {
+  border-radius: 5px;
+  padding: get-vw($desktop-context, 26px) get-vw($desktop-context, 27px) get-vw($desktop-context, 19px) get-vw($desktop-context, 18px);
+}
+
+.About .Dropdown .content p {
+  width: get-vw($desktop-context, 978px);
+  font-size: get-vw($desktop-context, 24px);
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .About .banner {
+    margin-top: get-vw($mobile-context, 17px);
+    height: get-vw($mobile-context, 223px);
+    background-size: cover;
+  }
+
+  .About .Dropdown {
+    margin-top: get-vw($mobile-context, 19px);
+    padding: 0;
+  }
+
+  .About .Dropdown:last-child {
+    margin-bottom: get-vw($mobile-context, 168px);
+  }
+
+  .About .Dropdown .title {
+    padding: get-vw($mobile-context, 5.5px) get-vw($mobile-context, 11.51px);
+  }
+
+  .About .Dropdown .title h3 {
+    font-size: get-vw($mobile-context, 13px);
+  }
+
+  .About .icon-arrow-dropdown {
+    width: get-vw($mobile-context, 15.2px);
+    height: get-vw($mobile-context, 8.98px);
+    mask-size: get-vw($mobile-context, 15.2px);
+    -webkit-mask-size: get-vw($mobile-context, 15.2px);
+  }
+
+  .About .Dropdown .content {
+    padding: get-vw($mobile-context, 27.31px) get-vw($mobile-context, 6.91px) get-vw($mobile-context, 52.28px) get-vw($mobile-context, 11.51px);
+  }
+
+  .About .Dropdown .content p {
+    width: get-vw($mobile-context, 316.58px);
+    font-size: get-vw($mobile-context, 12px);
+  }
+}

@@ -1,0 +1,42 @@
+#Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: get-vw($desktop-context, 209px);
+  background-color: #000;
+}
+
+#Footer .icon-logo {
+  margin-top: get-vw($desktop-context, 66px);
+  width: get-vw($desktop-context, 122px);
+  height: get-vw($desktop-context, 38.44px);
+  mask-size: get-vw($desktop-context, 122px);
+  -webkit-mask-size: get-vw($desktop-context, 122px);
+  background-color: #fff;
+}
+
+#Footer p {
+  margin-top: get-vw($desktop-context, 28.56px);
+  font-size: get-vw($desktop-context, 24px);
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  #Footer {
+    justify-content: center;
+    height: get-vw($mobile-context, 209px);
+  }
+
+  #Footer .icon-logo {
+    margin-top: 0;
+    width: get-vw($mobile-context, 122px);
+    height: get-vw($mobile-context, 39.44px);
+    mask-size: get-vw($mobile-context, 122px);
+    -webkit-mask-size: get-vw($mobile-context, 122px);
+  }
+
+  #Footer p {
+    font-size: get-vw($mobile-context, 12px);
+  }
+}

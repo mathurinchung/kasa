@@ -1,12 +1,12 @@
 import { NavLink } from 'react-router-dom';
-import '../../css/Header.css';
+import { Icon } from '../assets';
 
 function Header() {
   const activeStyle = "isActive";
 
   return (
     <header id="Header">
-      <i className="icon-logo red"></i>
+      <Icon className="icon-logo" />
 
       <nav>
         <ul>

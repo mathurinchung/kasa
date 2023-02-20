@@ -1,9 +1,8 @@
-import '../css/Banner.css';
-
-function Banner({ children }) {
+function Banner({ text }) {
   return (
     <div className="banner">
-      <div className="layer">{ children }</div>
+      <div className="overlay"></div>
+      { text ? <h2>{ text }</h2> : null }
     </div>
   );
 }
