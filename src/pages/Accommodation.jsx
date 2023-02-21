@@ -16,7 +16,6 @@ function Accommodation() {
 
       <Dropdown title="Description" content={ accommodation.description } />
       <Dropdown title="Équipements" content={ accommodation.equipments.map((item, index) => <div key={ index }>{ item }</div>) } />
-
     </Main>
   );
 }
