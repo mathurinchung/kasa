@@ -42,6 +42,7 @@
       -webkit-mask-size: get-vw($mobile-context, 145px);
     }
 
+    & ul {
       & li {
         margin-left: get-vw($mobile-context, 10px);
     
@@ -50,5 +51,6 @@
           text-transform: uppercase;
         }
       }
+    }
   }
 }

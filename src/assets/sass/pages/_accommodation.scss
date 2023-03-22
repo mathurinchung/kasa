@@ -207,13 +207,13 @@
   
       & i {
         margin-left: get-vw($mobile-context, 5px);
-      }
-  
-      & .icon-star {
-        width: get-vw($mobile-context, 15px);
-        height: get-vw($mobile-context, 15px);
-        mask-size: get-vw($mobile-context, 15px);
-        -webkit-mask-size: get-vw($mobile-context, 15px);
+
+        &.icon-star {
+          width: get-vw($mobile-context, 15px);
+          height: get-vw($mobile-context, 15px);
+          mask-size: get-vw($mobile-context, 15px);
+          -webkit-mask-size: get-vw($mobile-context, 15px);
+        }
       }
     }
   }

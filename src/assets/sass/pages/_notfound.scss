@@ -31,8 +31,11 @@
   }
 
   .NotFound .errorMsg {
+    margin: auto;
     padding-top: get-vw($mobile-context, 11px);
+    width: get-vw($mobile-context, 260px);
     font-size: get-vw($mobile-context, 18px);
+    text-align: center;
   }
 
   .NotFound a {
