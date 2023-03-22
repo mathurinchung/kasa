@@ -1,6 +1,4 @@
-import Home from './Home';
-import Accommodation from './Accommodation';
-import About from './About'
-import NotFound from './NotFound'
-
-export { Home, Accommodation, About, NotFound };
+export  { default as Home } from './Home';
+export  { default as Accommodation } from './Accommodation';
+export  { default as About } from './About';
+export  { default as NotFound } from './NotFound';

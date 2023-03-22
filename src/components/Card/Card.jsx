@@ -6,7 +6,7 @@ function Card({ data }) {
       <Link to={ `accommodation/${ data.id }` }>
         <figure>
           <img src={ data.cover } alt={ data.title } />
-          <figcaption className="overlay">{ data.title }</figcaption>
+          <figcaption className="title">{ data.title }</figcaption>
         </figure>
       </Link>
     </li>

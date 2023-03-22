@@ -1,4 +1,2 @@
-import Layout from './Layout';
-import Main from './Main';
-
-export { Layout, Main };
+export { default as Layout } from './Layout';
+export { default as Main } from './Main';

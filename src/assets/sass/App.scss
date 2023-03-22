@@ -2,15 +2,14 @@
 @import 'abstracts/functions';
 // @import 'abstracts/mixins';
 
-// @import 'vendors/bootstrap';
+// @import 'vendors/';
 
 // @import 'base/reset';
 // @import 'base/typography';
-@import 'base/app';
 
 @import 'layout/header';
 @import 'layout/footer';
-@import 'layout/main';
+// @import 'layout/main';
 @import 'layout/layout';
 
 @import 'components/banner';

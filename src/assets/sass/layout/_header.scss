@@ -1,0 +1,54 @@
+#Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: get-vw($desktop-context, 40px);
+
+  & .icon-logo {
+    width: get-vw($desktop-context, 209.32px);
+    height: get-vw($desktop-context, 68px);
+    mask-size: get-vw($desktop-context, 209.32px);
+    -webkit-mask-size: get-vw($desktop-context, 209.32px);
+    background-color: $base-color;
+  }
+
+  & ul {
+    display: flex;
+  
+    & li {
+      margin-left: get-vw($desktop-context, 57px);
+  
+      & .navlink {
+        font-size: get-vw($desktop-context, 24px);
+        text-decoration: none;
+
+        &.active {
+          text-decoration: underline;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #Header {
+    padding-top: get-vw($mobile-context, 20px);
+
+    & .icon-logo {
+      width: get-vw($mobile-context, 145px);
+      height: get-vw($mobile-context, 47px);
+      mask-size: get-vw($mobile-context, 145px);
+      -webkit-mask-size: get-vw($mobile-context, 145px);
+    }
+
+      & li {
+        margin-left: get-vw($mobile-context, 10px);
+    
+        & .navlink {
+          font-size: get-vw($mobile-context, 12px);
+          text-transform: uppercase;
+        }
+      }
+  }
+}

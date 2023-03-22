@@ -1,4 +1,4 @@
-import Icon from '../assets/Icon';
+import { Icon } from '../Assets';
 
 function Rating({ data }) {
   const stars = [ 1, 2, 3, 4, 5 ];

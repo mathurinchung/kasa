@@ -1,4 +1,4 @@
-import { Icon } from '../assets';
+import { Icon } from '../Assets';
 
 function Footer() {
   return (

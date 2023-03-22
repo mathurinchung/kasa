@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Icon } from '../Assets';
 
 function Slideshow({ pictures }) {
   const [ current, setCurrent ] = useState(0);
@@ -13,17 +14,16 @@ function Slideshow({ pictures }) {
         : <>
             {
               pictures.map((picture, index) => (
-                <figure key={ index } className={`slide ${ index === current ? "active" : null}`}>
+                <figure key={ index } className={`slide ${ index === current ? "active" : null }`}>
                   <img src={ picture } alt="" />
                   <figcaption className="numberText">{ index + 1 }/{ pictures.length }</figcaption>
                 </figure>
               ))
             }
-            <div className="arrow previous" onClick={ previousSlide }><i className="icon-arrow-left"></i></div>
-            <div className="arrow next" onClick={ nextSlide }><i className="icon-arrow-right"></i></div>
+            <div className="arrow previous" onClick={ previousSlide }><Icon className="icon-arrow-left" /></div>
+            <div className="arrow next" onClick={ nextSlide }><Icon className="icon-arrow-right" /></div>
           </>
       }
-
     </div>
   );
 }

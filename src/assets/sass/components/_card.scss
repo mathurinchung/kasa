@@ -1,0 +1,61 @@
+.Card {
+  position: relative;
+  border-radius: get-vw($desktop-context, 10px); 
+  width: get-vw($desktop-context, 340px);
+  height: get-vw($desktop-context, 340px);
+  background-color: $base-color;
+
+  & a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  & figure {
+    width: 100%;
+    height: 100%;
+  }
+
+  & img {
+    border-radius: get-vw($desktop-context, 10px);
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+  }
+
+  & .title {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+    border-radius: get-vw($desktop-context, 10px);
+    padding: get-vw($desktop-context, 20px);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    color: #fff;
+    font-size: get-vw($desktop-context, 18px);
+  }
+
+  &:hover img {
+    opacity: .3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Card {
+    border-radius: get-vw($mobile-context, 10px);
+    width: 100%;
+    height: get-vw($mobile-context, 255px);
+
+    & img {
+      border-radius: get-vw($mobile-context, 10px);
+    }
+
+    & .title {
+      border-radius: get-vw($mobile-context, 10px);
+      padding: get-vw($mobile-context, 15px) get-vw($mobile-context, 19.71px);
+      font-size: get-vw($mobile-context, 18px);
+    }
+  }
+}

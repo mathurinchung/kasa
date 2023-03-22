@@ -1,9 +1,8 @@
-import { Layout, Main } from './Layout';
-import { Router } from './Routes';
-import Banner from './Banner';
-import Dropdown from './Dropdown';
-import Card from './Card';
-import Slideshow from './Slideshow';
-import { Information } from './Information';
-
-export { Layout, Main, Router, Banner, Dropdown, Card, Slideshow, Information };
+export { default as Layout } from './Layout/Layout';
+export { default as Main } from './Layout/Main';
+export { default as Router } from './Routes/Router';
+export { default as Banner } from './Banner/Banner';
+export { default as Dropdown } from './Dropdown/Dropdown';
+export { default as Card } from './Card/Card';
+export { default as Slideshow } from './Slideshow/Slideshow';
+export { default as Information } from './Information/Information';

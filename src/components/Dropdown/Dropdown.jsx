@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Icon } from './assets';
+import { Icon } from '../Assets';
 
 function Dropdown({ title, content }) {
   const [ visible, setVisible ] = useState(false);

@@ -1,6 +1,6 @@
 .Home .banner {
   margin-top: get-vw($desktop-context, 63px);
-  background: url("../../assets/images/background_home.jpg") no-repeat center / 100% auto;
+  background: url("../../images/background_home.jpg") no-repeat center / 100% auto;
 }
 
 .Home .accommodations {
@@ -9,7 +9,7 @@
   column-gap: get-vw($desktop-context, 60px);
   row-gap: get-vw($desktop-context, 50px);
   margin: get-vw($desktop-context, 43px) 0 get-vw($desktop-context, 159px);
-  border-radius: 25px;
+  border-radius: get-vw($desktop-context, 25px);
   padding: get-vw($desktop-context, 56px) get-vw($desktop-context, 50px);
   background-color: #f6f6f6;
 }

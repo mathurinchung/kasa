@@ -1,0 +1,255 @@
+.Accommodation {
+  display: grid;
+  grid-template-columns: repeat(2, get-vw($desktop-context, 582px));
+  grid-template-rows: repeat(3, auto);
+  column-gap: get-vw($desktop-context, 76px);
+}
+
+.Accommodation .Slideshow {
+  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+  margin-top: get-vw($desktop-context, 20px);
+  height: get-vw($desktop-context, 415px);
+
+  & img {
+    border-radius: get-vw($desktop-context, 25px);
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.Accommodation .information {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-row: 2 / 3;
+  grid-column: 1 / 3;
+  justify-content: space-between;
+  margin-top: get-vw($desktop-context, 30px);
+  width: 100%;
+
+  & .title {
+    grid-column: 1 / 2;
+    font-size: get-vw($desktop-context, 36px);
+    font-weight: 500;
+  }
+
+  & .location {
+    grid-column: 1 / 2;
+    font-size: get-vw($desktop-context, 18px);
+  }
+
+  & .tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: get-vw($desktop-context, 6px);
+    grid-column: 1 / 2;
+    margin-top: get-vw($desktop-context, 20px);
+    font-size: get-vw($desktop-context, 14px);
+
+    & .tag {
+      margin-right: get-vw($desktop-context, 10px);
+      border-radius: get-vw($desktop-context, 10px);
+      padding: get-vw($desktop-context, 3px) get-vw($desktop-context, 40px);
+      background-color: #ff6060;
+      color: #fff;
+    }
+  }
+
+  & .host {
+    display: flex;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    justify-content: flex-end;
+    align-items: center;
+
+    & .hostname {
+      margin-right: get-vw($desktop-context, 10px);
+      font-size: get-vw($desktop-context, 18px);
+      font-weight: 500;
+      text-align: right;
+    }
+
+    & .profile {
+      border-radius: 50%;
+      width: get-vw($desktop-context, 64px);
+      height: get-vw($desktop-context, 64px);
+      background-color: #c4c4c4;
+    
+      & img {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  & .rating {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    margin-top: get-vw($desktop-context, 24px);
+  
+    & i {
+      margin-left: get-vw($desktop-context, 10px);
+  
+      &.icon-star {
+        width: get-vw($desktop-context, 30px);
+        height: get-vw($desktop-context, 30px);
+        mask-size: get-vw($desktop-context, 30px);
+        -webkit-mask-size: get-vw($desktop-context, 30px);
+      }
+    }
+  }
+}
+
+.Accommodation .Dropdown {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-row: 3 / 4;
+  margin-top: get-vw($desktop-context, 24px);
+  margin-bottom: get-vw($desktop-context, 28px);
+
+  & .title {
+    border-radius: get-vw($desktop-context, 10px);
+    padding: get-vw($desktop-context, 13px) get-vw($desktop-context, 20px);
+  
+    & h3 {
+      font-size: get-vw($desktop-context, 18px);
+    }
+  
+    & .icon-arrow-dropdown {
+      width: get-vw($desktop-context, 26.4px);
+      height: get-vw($desktop-context, 15.56px);
+      mask-size: get-vw($desktop-context, 26.4px);
+      -webkit-mask-size: get-vw($desktop-context, 26.4px);
+    }
+  }
+
+  & .content {
+    border-radius: get-vw($desktop-context, 10px);
+    padding: get-vw($desktop-context, 40px) get-vw($desktop-context, 12px) get-vw($desktop-context, 53px) get-vw($desktop-context, 20px);
+    font-size: get-vw($desktop-context, 18px);
+  
+    & ul {
+      list-style: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Accommodation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Accommodation .Slideshow {
+    margin-top: get-vw($mobile-context, 27px);
+    width: 100%;
+    height: get-vw($mobile-context, 255px);
+
+    & img {
+      border-radius: get-vw($mobile-context, 10px);
+    }
+  }
+
+  .Accommodation .information {
+    grid-template-rows: repeat(4, auto);
+    gap: 0;
+    margin-top: get-vw($mobile-context, 15px);
+
+    & .title {
+      grid-row: 1 / 2;
+      grid-column: 1 / 3;
+      font-size: get-vw($mobile-context, 18px);
+    }
+
+    & .location {
+      grid-row: 2 / 3;
+      grid-column: 1 / 3;
+      font-size: get-vw($mobile-context, 14px);
+    }
+
+    & .tags {
+      grid-row: 3 / 4;
+      grid-column: 1 / 3;
+      row-gap: get-vw($mobile-context, 6px);
+      margin-top: get-vw($mobile-context, 10px);
+      font-size: get-vw($mobile-context, 10px);
+  
+      & .tag {
+        margin-right: get-vw($mobile-context, 10px);
+        border-radius: get-vw($mobile-context, 5px);
+        padding: get-vw($mobile-context, 2px) get-vw($mobile-context, 30px);
+      }
+    }
+
+    & .host {
+      grid-row: 4 / 5;
+      grid-column: 2 / 3;
+      margin-top: get-vw($mobile-context, 16px);
+  
+      & .hostname {
+        margin-right: get-vw($mobile-context, 10.5px);
+        font-size: get-vw($mobile-context, 12px);
+      }
+  
+      & .profile {
+        width: get-vw($mobile-context, 32px);
+        height: get-vw($mobile-context, 32px);
+      }
+    }
+
+    & .rating {
+      grid-row: 4 / 5;
+      grid-column: 1 / 2;
+      margin-top: get-vw($mobile-context, 25.5px);
+  
+      & i {
+        margin-left: get-vw($mobile-context, 5px);
+      }
+  
+      & .icon-star {
+        width: get-vw($mobile-context, 15px);
+        height: get-vw($mobile-context, 15px);
+        mask-size: get-vw($mobile-context, 15px);
+        -webkit-mask-size: get-vw($mobile-context, 15px);
+      }
+    }
+  }
+
+  .Accommodation .Dropdown {
+    margin-top: get-vw($mobile-context, 16px);
+    margin-bottom: get-vw($mobile-context, 20.07px);
+
+    &:last-child {
+      margin-top: 0;
+      margin-bottom: get-vw($mobile-context, 64.5px);
+    }
+
+    & .title {
+      border-radius: get-vw($mobile-context, 5px);
+      padding: get-vw($mobile-context, 5.45px) get-vw($mobile-context, 10.24px) get-vw($mobile-context, 5.45px) get-vw($mobile-context, 11.51px);
+  
+      & h3 {
+        font-size: get-vw($mobile-context, 13px);
+      }
+
+      & .icon-arrow-dropdown {
+        width: get-vw($mobile-context, 15.2px);
+        height: get-vw($mobile-context, 8.96px);
+        mask-size: get-vw($mobile-context, 15.2px);
+        -webkit-mask-size: get-vw($mobile-context, 15.2px);
+      }
+    }
+
+    & .content {
+      border-radius: get-vw($mobile-context, 5px);
+      padding: get-vw($mobile-context, 27.27px) get-vw($mobile-context, 6.91px) get-vw($mobile-context, 5px) get-vw($mobile-context, 11.51px);
+  
+      & ul {
+        font-size: get-vw($mobile-context, 12px);
+      }
+    }
+  }
+}
