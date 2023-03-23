@@ -66,6 +66,7 @@
 
     & .hostname {
       margin-right: get-vw($desktop-context, 10px);
+      width: min-content;
       font-size: get-vw($desktop-context, 18px);
       font-weight: 500;
       text-align: right;
