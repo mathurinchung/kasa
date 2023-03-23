@@ -5,7 +5,7 @@ function Rating({ data }) {
 
   return (
     <div className="rating">
-      { stars.map((star, index) => data.rating >= star ? <Icon key={ index } className="icon-star red" /> : <Icon key={ index } className="icon-star grey" />) }
+      { stars.map((star, index) => <Icon key={ index } className={`icon-star ${ data.rating >= star ? "red" : "grey" }`} />) }
     </div>
   );
 }
