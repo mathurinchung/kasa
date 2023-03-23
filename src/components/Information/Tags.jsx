@@ -1,7 +1,7 @@
 function Tags({ data }) {
   return (
     <ul className="tags">
-      { data.tags.map((tag, index) => <div className="tag" key={ index }>{ tag }</div>) }
+      { data.tags.map((tag, index) => <li className="tag" key={ index }>{ tag }</li>) }
     </ul>
   );
 }
