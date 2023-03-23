@@ -18,7 +18,7 @@
       display: flex;
     }
     
-    & .numberText {
+    & figcaption {
       position: absolute;
       bottom: 0;
       margin-bottom: get-vw($desktop-context, 24.92px);
@@ -54,23 +54,25 @@
   .Slideshow {
     border-radius: get-vw($mobile-context, 10px);
 
-    & .slide .numberText {
+    & .slide figcaption {
       display: none;
     }
 
-    & .arrow i {
-      width: get-vw($mobile-context, 11.67px);
-      height: get-vw($mobile-context, 19.8px);
-      mask-size: get-vw($mobile-context, 11.67px);
-      -webkit-mask-size: get-vw($mobile-context, 11.67px);
-    }
+    & .arrow {
+      & i {
+        width: get-vw($mobile-context, 11.67px);
+        height: get-vw($mobile-context, 19.8px);
+        mask-size: get-vw($mobile-context, 11.67px);
+        -webkit-mask-size: get-vw($mobile-context, 11.67px);
+      }
 
-    & .previous {
-      margin-left: get-vw($mobile-context, 5.84px);
-    }
+      &.previous {
+        margin-left: get-vw($mobile-context, 5.84px);
+      }
 
-    & .next {
-      margin-right: get-vw($mobile-context, 5.84px);
+      &.next {
+        margin-right: get-vw($mobile-context, 5.84px);
+      }
     }
   }
 }

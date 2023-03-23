@@ -61,10 +61,11 @@
     display: flex;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
+    flex-direction: row-reverse;
 
-    & .hostname {
+    & figcaption {
       margin-right: get-vw($desktop-context, 10px);
       width: min-content;
       font-size: get-vw($desktop-context, 18px);
@@ -72,17 +73,11 @@
       text-align: right;
     }
 
-    & .profile {
+    & img {
       border-radius: 50%;
       width: get-vw($desktop-context, 64px);
       height: get-vw($desktop-context, 64px);
       background-color: #c4c4c4;
-    
-      & img {
-        border-radius: 50%;
-        width: 100%;
-        height: 100%;
-      }
     }
   }
 
@@ -190,12 +185,12 @@
       grid-column: 2 / 3;
       margin-top: get-vw($mobile-context, 16px);
   
-      & .hostname {
+      & figcaption {
         margin-right: get-vw($mobile-context, 10.5px);
         font-size: get-vw($mobile-context, 12px);
       }
   
-      & .profile {
+      & img {
         width: get-vw($mobile-context, 32px);
         height: get-vw($mobile-context, 32px);
       }

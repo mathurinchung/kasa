@@ -1,11 +1,8 @@
+import { Figure } from "../Assets";
+
 function Host({ data }) {
   return (
-    <div className="host">
-      <h3 className="hostname">{ data.host.name }</h3>
-      <div className="profile">
-        <img src={ data.host.picture } alt={ data.title } />
-      </div>
-    </div>
+    <Figure className="host" src={ data.host.picture } alt={ data.title } caption={ data.host.name } />
   );
 }
 

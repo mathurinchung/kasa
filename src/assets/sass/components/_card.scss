@@ -23,7 +23,7 @@
     transition: .5s;
   }
 
-  & .title {
+  & figcaption {
     position: absolute;
     top: 0;
     display: flex;
@@ -52,7 +52,7 @@
       border-radius: get-vw($mobile-context, 10px);
     }
 
-    & .title {
+    & figcaption {
       border-radius: get-vw($mobile-context, 10px);
       padding: get-vw($mobile-context, 15px) get-vw($mobile-context, 19.71px);
       font-size: get-vw($mobile-context, 18px);
