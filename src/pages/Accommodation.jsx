@@ -1,6 +1,6 @@
 import { Navigate, useParams } from 'react-router-dom';
 import { Main, Dropdown, Slideshow, Information } from '../components';
-import data from '../__mocks__/accommodations.json';
+import data from '../data/accommodations.json';
 
 function Accommodation() {
   const params = useParams();

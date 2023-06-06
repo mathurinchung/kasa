@@ -1,0 +1,39 @@
+i {
+  display: inline-block;
+}
+
+.icon-logo {
+  mask:url("/assets/svg/logo.svg") no-repeat;
+  -webkit-mask:url("/assets/svg/logo.svg") no-repeat;
+}
+
+.icon-arrow-dropdown {
+  mask:url("/assets/svg/arrow_dropdown.svg") no-repeat;
+  -webkit-mask:url("../../assets/svg/arrow_dropdown.svg") no-repeat;
+  background-color: #fff;
+  transition: .5s;
+}
+
+.icon-arrow-left {
+  mask:url("/assets/svg/arrow_left.svg") no-repeat;
+  -webkit-mask:url("/assets/svg/arrow_left.svg") no-repeat;
+}
+
+.icon-arrow-right {
+  mask:url("/assets/svg/arrow_right.svg") no-repeat;
+  -webkit-mask:url("/assets/svg/arrow_right.svg") no-repeat;
+}
+
+.icon-star {
+  mask:url("/assets/svg/star.svg") no-repeat;
+  -webkit-mask:url("/assets/svg/star.svg") no-repeat;
+
+  &.grey {
+    background-color: #e3e3e3;
+  }
+
+  &.red {
+    background-color: #ff6060;
+  }
+}
+

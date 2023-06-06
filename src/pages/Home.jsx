@@ -1,5 +1,5 @@
 import { Main, Banner, Card } from '../components';
-import data from '../__mocks__/accommodations.json';
+import data from '../data/accommodations.json';
 
 function Home() {
   return (

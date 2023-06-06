@@ -1,5 +1,5 @@
 import { Layout, Router } from './components';
-import './assets/sass/App.scss';
+import './sass/App.scss';
 
 function App() {
   return (

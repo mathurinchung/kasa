@@ -1,5 +1,5 @@
 import { Main, Banner, Dropdown } from '../components';
-import about from '../__mocks__/about.json';
+import about from '../data/about.json';
 
 function About() {
   return (
